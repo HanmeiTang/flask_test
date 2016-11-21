@@ -1,3 +1,4 @@
+# Initialization
 Build up repository.
 
 ```shell
@@ -37,3 +38,13 @@ Generate requirement file.
 ```shell
 $ pip freeze > requirements.txt
 ```
+
+Create heroku app
+```shell
+$ echo 'web: funicorn routes:app' > Procfile
+$ heroku create
+Creating app... done, ⬢ radiant-chamber-83442
+https://radiant-chamber-83442.herokuapp.com/ | https://git.heroku.com/radiant-chamber-83442.git
+```
+
+
