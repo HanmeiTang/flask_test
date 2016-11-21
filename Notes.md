@@ -2,18 +2,13 @@ Build up repository.
 
 ```shell
 $ git init
-
 Initialized empty Git repository in /Users/hanmeiTang/repos/flask_ex/.git/
 ```
 
 ```shell
 $ git status
-
-
 On branch master
-
 Initial commit
-
 nothing to commit (create/copy files and use "git add" to track)
 ```
 
