@@ -36,15 +36,21 @@ $ git branch --set-upstream-to=origin/master master
 
 Generate requirement file.
 ```shell
+# Standard method
 $ pip freeze > requirements.txt
+# Here we simply copy requirements.txt from some existing app
+$ cp xxxx/requirements .
 ```
 
 Create heroku app
 ```shell
-$ echo 'web: funicorn routes:app' > Procfile
+$ echo 'web: gunicorn routes:app' > Procfile
+$ echo "python-3.5.2" > runtime.txt
 $ heroku create
 Creating app... done, ⬢ radiant-chamber-83442
 https://radiant-chamber-83442.herokuapp.com/ | https://git.heroku.com/radiant-chamber-83442.git
+
+$ git add .
+$ git commit -m "heroku config"
+$ git push heroku master
 ```
-
-
