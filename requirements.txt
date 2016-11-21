@@ -1,0 +1,94 @@
+anaconda-client==1.5.1
+appnope==0.1.0
+ase==3.11.0
+atomicfile==1.0
+brewer2mpl==1.4.1
+click==6.6
+clyent==1.2.2
+conda==4.2.12
+-e git+git@github.com:materialsproject/custodian.git@af15bda31db5530e433ce6f9311d6634bb9f481b#egg=custodian
+cycler==0.10.0
+decorator==4.0.10
+docutils==0.12
+enum34==1.1.6
+-e git+git@github.com:materialsproject/fireworks.git@57fa7b0384aa47f8289a9dbb12a7b9497270e126#egg=FireWorks
+-e git+https://github.com/HanmeiTang/flamyngo.git@9b478cbf25eea4bd870b79399ddcfc4c00fe9c53#egg=flamyngo
+Flask==0.11.1
+flask-paginate==0.4.5
+gunicorn==19.6.0
+ipykernel==4.5.0
+ipython==5.1.0
+ipython-genutils==0.1.0
+ipywidgets==5.2.2
+itsdangerous==0.24
+Jinja2==2.8
+jsonschema==2.5.1
+jupyter==1.0.0
+jupyter-client==4.4.0
+jupyter-console==5.0.0
+jupyter-core==4.1.1
+latexcodec==1.0.3
+linecache2==1.0.0
+MarkupSafe==0.23
+-e git+https://github.com/hackingmaterials/MatMethods.git@efccb8260f405d614b14b1f36f6d48119854fd96#egg=MatMethods
+matplotlib==1.5.1
+mistune==0.7.2
+mock==2.0.0
+mongomock==3.0.0
+monty==0.9.6
+-e git+https://github.com/HanmeiTang/MPInterfaces.git@9fc3f5b570bfccb8e681db15762964cfe73dd920#egg=mpinterfaces
+nb-anacondacloud==1.2.0
+nb-conda==2.0.0
+nb-conda-kernels==2.0.0
+nbconvert==4.2.0
+nbformat==4.1.0
+nbpresent==3.0.2
+nose==1.3.7
+notebook==4.2.2
+numpy==1.11.1
+palettable==2.1.1
+pandas==0.18.1
+PasteDeploy==1.5.2
+path.py==0.0.0
+pbr==1.10.0
+pexpect==4.0.1
+pickleshare==0.7.3
+prettyplotlib==0.1.7
+prettytable==0.7.2
+prompt-toolkit==1.0.3
+ptyprocess==0.5.1
+pybtex==0.20.1
+pycosat==0.6.1
+pycrypto==2.6.1
+Pygments==2.1.3
+pyhull==1.5.6
+-e git+https://github.com/materialsvirtuallab/pymacy.git@b8890fde99fe1d394b599f33a053721b1ce85da5#egg=pymacy
+-e git+git@github.com:materialsproject/pymatgen.git@46fb85025613305a8557b4eccd403c7ccd81b1cf#egg=pymatgen
+-e git+git@github.com:materialsproject/pymatgen-db.git@9e3af41ff0f67d9ec198d2b9d3cf4a84338522bc#egg=pymatgen_db
+-e git+https://github.com/materialsvirtuallab/pymatgen-diffusion.git@94131bc945e8eaac2e6998aa6921a3a8b8fb62f2#egg=pymatgen_diffusion
+pymongo==3.3.0
+pyparsing==2.1.4
+python-dateutil==2.5.3
+pytz==2016.6.1
+PyYAML==3.11
+pyzmq==15.4.0
+qtconsole==4.2.1
+requests==2.10.0
+ruamel-yaml===-VERSION
+scipy==0.18.1
+sentinels==1.0.0
+simplegeneric==0.8.1
+six==1.10.0
+smoqe==0.1.3
+spglib==1.9.4.4
+tabulate==0.7.5
+terminado==0.6
+tornado==4.4.1
+tqdm==4.8.4
+traceback2==1.4.0
+traitlets==4.2.2
+unittest2==1.1.0
+wcwidth==0.1.7
+Werkzeug==0.11.11
+widgetsnbextension==1.2.6
+xlrd==1.0.0
